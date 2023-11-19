@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: fruit;
+    src: url(../fonts/fruits.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lhover a:hover,
+span:hover {
+    font-size: large;
+    color: #e40a0a !important;
+}
+
+.ahover a:hover {
+    color: #e4e00a !important;
+}
+.logoh:hover{
+    color: #e40a0a !important;
+}
+/* nav session start */
+.blue {
+    background-color: #101b37;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.white {
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+}
+
+.top-15 {
+    top: 15%;
+}
+
+.fw2 {
+    font-size: larger;
+
+}
+
+hr {
+    margin-left: 11px;
+    border: none;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+.hb {
+
+    margin-left: 0px;
+    height: 5px;
+    background: #e40a0a;
+    margin-bottom: 50px;
+}
+
+.bgp {
+    background: #1F172F;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+
+/* nav seeion end */
+
+/* banner seeion start */
+.banner {
+    width: 100%;
+    height: 550px;
+    background: url(../img/new.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-danger3 {
+    background: #5C327A;
+
+}
+
+.bg-purple {
+    background-color: #664CAD;
+}
+
+.nav-tabs .nav-link.active {
+    background: red;
+}
+
+.bg-danger4 {
+    background-color: #43235a;
+}
+
+.dw {
+    width: 70%;
+
+
+}
+
+.ml {
+    margin-left: -30px;
+}
+
+.gap-3 {
+
+    margin-right: -65px;
+}
+
+.btn-circle {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: #FD576D;
+    margin-top: -33px;
+    
+}
+
+/* banner seeion end */
+
+/* Fun Section Start  */
+.fun {
+    width: 100%;
+    height: auto;
+    background: url(../img/fun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-6 {
+    height: 140px;
+    width: 150px;
+}
+
+
+.clip {
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 50% 93%, 0 100%);
+
+}
+
+/* Fun Section End  */
+
+/* Newsletter Section start */
+
+.newsletter {
+    width: 100%;
+    background: url(../img/editflight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Newsletter Section end */
+
+/* Estimate Section Start */
+.estimate {
+    width: 100%;
+    background: url(../img/estimate.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Estimate Section End */
+
+/* footer Section Start */
+.footer {
+    width: 100%;
+    background: url(../img/flighttakeoff.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hspace {
+    padding-right: 20px;
+}
+
+.margin-2 {
+    margin: -14px -10px;
+    margin-bottom: 1rem;
+}
+
+/* footer Section End */
+@media (max-width:991px) {
+    .btn-circle {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        border-radius: 0%;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .fooContant ul li {
+
+        width: 50%;
+        float: left;
+
+    }
+
+    .fooContant ul li:first-child {
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 424px) {
+
+    .top-15 {
+        top: 2%;
+    }
+
+    .headline {
+        text-align: center;
+    }
+
+    .mss {
+        margin-left: 20px !important;
+    }
+    .btn2 {
+        margin-left: -50%;
+        
+    }
+    
+
+}
+@media (min-width: 576px) { 
+    .btn1{
+        
+    }
+ }
+
+@media (min-width: 340px) {
+
+    .top-15 {
+        top: 1%;
+    }
+
+    .headline {
+        text-align: center;
+    }
+
+    .margin {
+        padding-top: 15%;
+
+    }
+
+    .center1 {
+        padding: 0 40%;
+    }
+}
