@@ -130,6 +130,11 @@ input::-webkit-input-placeholder {
     text-align: center;
     font-size: 12px;
     border-radius: 50%;
+    
+}
+.btn-circle:hover{
+    color: #dd0d0d;
+    background-color: #ffffff;
 }
 
 .btn {
