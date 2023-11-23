@@ -85,7 +85,7 @@ input::-webkit-input-placeholder {
 /* banner seeion start */
 .banner {
     width: 100%;
-    height: 550px;
+    height: 600px;
     background: url(../img/new.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,6 +123,7 @@ input::-webkit-input-placeholder {
 
     margin-right: -65px;
 }
+
 
 .btn-circle {
     width: 90px;
